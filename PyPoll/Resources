@@ -1,0 +1,3 @@
+#Folder that contains CSV files that I used. Make sure it has the correct path
+CSV:election_data.csv
+Path: /Users/katchu/Desktop/Data Analysis Bootcamp/Module 3 Starter_Code/PyPoll/Resources/election_data.csv
