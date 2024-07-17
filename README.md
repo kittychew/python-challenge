@@ -3,7 +3,8 @@
 # PyBank Financial Analysis
 
     ## Overview
-    This project analyzes financial records from a dataset (`budget_data.csv`) using Python. It calculates various financial metrics including total number of months, net profit/loss, average change in profit/loss, and identifies the greatest increase and decrease in profits over the entire period.
+    This project analyzes financial records from a dataset (`budget_data.csv`) using Python. 
+    It calculates various financial metrics including total number of months, net profit/loss, average change in profit/loss, and identifies the greatest increase and decrease in profits over the entire period.
 
     ## Dataset
     The dataset (`budget_data.csv`) consists of two columns:
@@ -41,7 +42,8 @@
 # PyPoll:Vote Counting
 
     ## Overview
-    This project aims to modernize the vote-counting process for a small, rural town using Python. We analyze election data provided in a CSV file (election_data.csv) to calculate and display the following election metrics:
+    This project aims to modernize the vote-counting process for a small, rural town using Python. 
+    We analyze election data provided in a CSV file (election_data.csv) to calculate and display the following election metrics:
 
 	•	The total number of votes cast
 	•	A complete list of candidates who received votes
