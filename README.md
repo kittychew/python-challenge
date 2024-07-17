@@ -83,3 +83,5 @@
         •	List of Candidates: Each candidate who received votes, with their percentage of the total vote and total number of votes received
         •	Winner: Name of the candidate who won the election based on popular vote
 
+    ## Resources
+        •	ChatGPT: Consulted ChatGPT for assistance during the completion of both the PyBank and PyPoll projects.
