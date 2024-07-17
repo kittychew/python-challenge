@@ -18,8 +18,8 @@ with open(csvpath, mode='r', newline='') as csvfile:
     print(f"CSV Header: {csv_header}")
     for row in csvreader: #basically goes through the row...
         total_months += 1 #counts the number of months or rows in the column
-        print(row) #idk if this stays here or not 
-        current_profit_loss = calculate_profit_loss(row) #it keeps saying the this is not defined?? 
+        print(row) 
+        current_profit_loss = calculate_profit_loss(row) #was having trouble with getting this value. however this works
         net_total += current_profit_loss #adds the numbers up in row 1, or column 2
         dates.append(row[0])
     
@@ -37,7 +37,7 @@ increase_date = dates[increase_index + 1] #gotta adjust because we started calcu
 
 decrease_amount = min(changes)
 decrease_index = changes.index(decrease_amount)
-decrease_date = dates[decrease_index+1] 
+decrease_date = dates[decrease_index+1] #same as above
 
 print("Financial Analysis")
 print("---------------------")

@@ -1,4 +1,4 @@
-#CSV files that i used and their path
+#CSV files that I used and associated path
 CSV: budget_data.csv
 csvpath = '/Users/katchu/Desktop/Data Analysis Bootcamp/Module 3 Starter_Code/PyBank/Resources/budget_data.csv'
 
