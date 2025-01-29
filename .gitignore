@@ -1,0 +1,9 @@
+.DS_Store
+election_data.csv
+budget_data.csv
+__pycache__/
+*.pyc
+.venv/
+*.log
+*.db
+
