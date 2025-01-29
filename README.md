@@ -1,87 +1,61 @@
-# python-challenge
+# Python Challenge: PyBank & PyPoll
 
-# PyBank Financial Analysis
+## Overview
 
-    ## Overview
-    This project analyzes financial records from a dataset (`budget_data.csv`) using Python. 
-    It calculates various financial metrics including total number of months, net profit/loss, average change in profit/loss, and identifies the greatest increase and decrease in profits over the entire period.
+This repository contains solutions to two Python challenges: **PyBank** and **PyPoll**. These challenges involve performing data analysis on CSV datasets using Python to generate insights and reports. The project highlights skills in data manipulation, mathematical operations, and generating automated reports.
 
-    ## Dataset
-    The dataset (`budget_data.csv`) consists of two columns:
-    - **Date**: Date of the financial record.
-    - **Profit/Losses**: Financial profit or loss for the corresponding month.
+## Datasets
 
-    ## Requirements
-    - Python (version 3. recommended)
-    - CSV module (standard library in Python)
+1. **budget_data.csv**: 
+   - Contains financial data with two columns: "Date" and "Profit/Losses".
+   - Used in the **PyBank** challenge to calculate financial metrics like total months, net profit/loss, and monthly changes in profit.
 
-    ## Installation
-    1. Clone the repository:
-    ```bash
-    git clone <https://github.com/kittychew/python-challenge>
-    cd /Users/katchu/Desktop/Data Analysis Bootcamp/python-challenge/PyBank/main.py
-    2. Install necessary dependencies
+2. **election_data.csv**: 
+   - Contains election data with three columns: "Ballot ID", "County", and "Candidate".
+   - Used in the **PyPoll** challenge to calculate the total number of votes, percentage of votes for each candidate, and the election winner.
 
-    ## Usage
-    1. Ensure Python and necessary modules are installed.
-    2. Run the Python script main.py to perform financial analysis on budget_data.csv.
+## Project Breakdown
 
-    ## Files
-        •	main.py: Python script for financial analysis.
-        •	budget_data.csv: Dataset containing financial records.
+### **PyBank: Financial Analysis**
+In this task, I analyzed the financial records dataset (`budget_data.csv`) to generate key financial metrics, including:
+- **Total months** in the dataset
+- **Total profit/loss** over the entire period
+- **Average monthly change** in profit/loss
+- The **greatest increase** in profits (with the corresponding month)
+- The **greatest decrease** in profits (with the corresponding month)
 
-    ## Output
-    Upon running main.py, the script will print the following financial metrics to the console:
+[![Screenshot-2025-01-29-at-1-54-39-AM.png](https://i.postimg.cc/pT5BxVhg/Screenshot-2025-01-29-at-1-54-39-AM.png)](https://postimg.cc/R69tLBTR)
 
-        •	Total Number of Months
-        •	Net Profit and Losses
-        •	Average Change in Profit/Loss
-        •	Greatest Increase in Profits (Date and Amount)
-        •	Greatest Decrease in Profits (Date and Amount)
+#### Skills Demonstrated:
+- Data reading and processing using Python's `csv` module
+- Iteration over data structures and performing basic math (sum, average, maximum, minimum)
+- Writing Python scripts to automate calculations and generate insights
 
-# PyPoll:Vote Counting
+### **PyPoll: Election Analysis**
+In this task, I analyzed the election dataset (`election_data.csv`) to calculate voting results, including:
+- **Total number of votes** cast
+- **Vote count and percentage** for each candidate
+- **Winner** based on the most votes
+  
+  [![Screenshot-2025-01-29-at-1-53-39-AM.png](https://i.postimg.cc/d1YbZf2N/Screenshot-2025-01-29-at-1-53-39-AM.png)](https://postimg.cc/PLS3B2F1)
 
-    ## Overview
-    This project aims to modernize the vote-counting process for a small, rural town using Python. 
-    We analyze election data provided in a CSV file (election_data.csv) to calculate and display the following election metrics:
+#### Skills Demonstrated:
+- Parsing and analyzing CSV data
+- Calculating percentages and aggregating data
+- Identifying the winner using conditional logic
+- Exporting results to a text file for reporting
 
-	•	The total number of votes cast
-	•	A complete list of candidates who received votes
-	•	The percentage of votes each candidate won
-	•	The total number of votes each candidate won
-	•	The winner of the election based on popular vote
+## Files
 
-    ## Dataset
-    The dataset (election_data.csv) consists of three columns:
+- **PyBank**:
+  - `PyBank_analysis.py`: Python script for analyzing the budget data and calculating financial metrics.
+- **PyPoll**:
+  - `PyPoll_analysis.py`: Python script for analyzing the election data and calculating voting results.
 
-	•	Voter ID: Unique identifier for each voter.
-	•	County: County where the vote was cast.
-	•	Candidate: Name of the candidate voted for by the voter.
+## Technologies Used:
+- **Python** (standard libraries like `csv` and file handling)
+- **Data Analysis** (Python data manipulation and math operations)
 
-    ## Requirements
-    - Python (version 3. recommended)
-    - CSV module (standard library in Python)
+## ChatGPT Assistance:
+During the development of this project, I utilized **ChatGPT** as a resource for troubleshooting, refining Python code, and improving my understanding of data analysis techniques.
 
-    ## Installation
-    1. Clone the repository:
-    ```bash
-    git clone <https://github.com/kittychew/python-challenge>
-    cd /Users/katchu/Desktop/Data Analysis Bootcamp/python-challenge/PyPoll/main.py
-    2. Install necessary dependencies
-
-    ## Usage
-    1.	Ensure Python and necessary modules are installed.
-	2.	Run the Python script main.py to perform election analysis on election_data.csv.
-
-    ## Files
-        •	main.py: Python script for election analysis.
-	    •	election_data.csv: Dataset containing election records.
-
-    ## Output
-    Upon running main.py, the script will print the following election results to the console:
-        •	Total Votes: Total number of votes cast
-        •	List of Candidates: Each candidate who received votes, with their percentage of the total vote and total number of votes received
-        •	Winner: Name of the candidate who won the election based on popular vote
-
-    ## Resources
-        •	ChatGPT: Consulted ChatGPT for assistance during the completion of both the PyBank and PyPoll projects.
